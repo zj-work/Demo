@@ -10,6 +10,8 @@ namespace Demo.Drawing.Magick
 {
     public class MagickHandler
     {
+        #region 缩略图
+
         /// <summary>
         /// 缩略图
         /// </summary>
@@ -39,5 +41,17 @@ namespace Demo.Drawing.Magick
             }
             return temp;
         }
+
+
+        #endregion
+
+        #region 调整HSL值
+
+        public Bitmap Modulate()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
     }
 }
